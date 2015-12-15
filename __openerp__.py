@@ -22,13 +22,14 @@
     "name": "Notebook Focus",
     "description":
         """
-        OpenERP Web module which allows Notebook Page elements to use attrs with default_focus and domains to choose which notebook page opens first
+        OpenERP Web module which allows Notebook Page elements to use attrs \
+        with default_focus and domains to choose which notebook page opens first
         """,
     "version": "1.0",
-    "author" : "credativ Ltd",
-    "website" : "http://credativ.co.uk",
-    "category" : "Tools",
-    "depends" : ["web"],
+    "author": "credativ Ltd, Clovis Nzouendjou",
+    "website": "http://credativ.co.uk",
+    "category": "Tools",
+    "depends": ["web"],
     "js": [
         "static/src/js/view_form.js",
     ],
